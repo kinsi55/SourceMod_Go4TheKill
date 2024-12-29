@@ -1,0 +1,303 @@
+"Go4TK_Items" {
+	"Definitions" {
+		"0" {
+			"Name" "None"
+		}
+		"1" {
+			"Name" "Binoculars"
+		}
+		"2" {
+			"Name" "Map"
+		}
+		"3" {
+			"Name" "Duct Tape"
+			"Weight" "5"
+			"Type" "item"
+			"Stackable" "1"
+			"Dropmodel" "models/props/de_vostok/ducttape01.mdl"
+		}
+		"4" {
+			"Name" "AK-47"
+			"Weight" "1500"
+			"Type" "weapon"
+			"Dropmodel" "models/weapons/w_rif_ak47_dropped.mdl"
+			"Droprotation" "0 0 90"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+		"5" {
+			"Name" "M4A4"
+			"Weight" "1500"
+			"Type" "weapon"
+			"Dropmodel" "models/weapons/w_rif_m4a1_dropped.mdl"
+			"Droprotation" "0 0 90"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+		"6" {
+			"Name" "Shotgun"
+			"Weight" "1500"
+			"Type" "weapon"
+			"Dropmodel" "models/weapons/w_shot_nova_dropped.mdl"
+			"Droprotation" "0 0 90"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+		"7" {
+			"Name" "Scout"
+			"Weight" "1500"
+			"Type" "weapon"
+			"Dropmodel" "models/weapons/w_snip_ssg08_dropped.mdl"
+			"Droprotation" "0 0 90"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+		"8" {
+			"Name" "P2000"
+			"Weight" "100"
+			"Type" "weapon"
+			"Dropmodel" "models/weapons/w_pist_hkp2000_dropped.mdl"
+			"Droprotation" "0 0 90"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+		"9" {
+			"Name" "Helmet"
+			"Weight" "250"
+			"Type" "head"
+			"Durability" "10"
+			"Dropmodel" "models/go4tk/pickup/helmet_pickup.mdl"
+			"Actions" {
+				"Equip" "1"
+				"Shred" "3"
+			}
+		}
+		"10" {
+			"Name" "Laminated Vest"
+			"Weight" "500"
+			"Type" "armor"
+			"Durability" "60"
+			"Dropmodel" "models/go4tk/pickup/vest_torso_pickup.mdl"
+			"Droprotation" "8 0 0"
+			"Dropoffset" "0 0 1"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+		"11" {
+			"Name" "Makeshift Armor"
+			"Weight" "325"
+			"Type" "armor"
+			"Durability" "30"
+			"Dropmodel" "models/go4tk/pickup/vest_torso_pickup.mdl"
+			"Droprotation" "8 0 0"
+			"Dropoffset" "0 0 1"
+			"Actions" {
+				"Equip" "1"
+				"Craft" "1"
+			}
+		}
+		"12" {
+			"Name" "Bandage"
+			"Weight" "1"
+			"Type" "utility"
+			"Dropmodel" "models/props/cs_office/paper_towels.mdl"
+			"Actions" {
+				"Use" "3"
+				"Craft" "1"
+			}
+			"Stackable" "1"
+		}
+		"13" {
+			"Name" "Medikit"
+			"Weight" "25"
+			"Type" "utility"
+			"Dropmodel" "models/Go4TK/pickup/firstaidkit.mdl"
+			"Actions" {
+				"Use" "4"
+			}
+			"Stackable" "1"
+		}
+		"14" {
+			"Name" "Composite Fabric"
+			"Weight" "15"
+			"Type" "item"
+			"Stackable" "1"
+		}
+		"15" {
+			"Name" "Fabric"
+			"Weight" "1"
+			"Type" "item"
+			"Stackable" "1"
+		}
+		"16" {
+			"Name" "Armor Scrap"
+			"Weight" "30"
+			"Type" "item"
+			"Dropmodel" "models/props/de_mirage/sheetmetal_b_shard_3.mdl"
+			"Droprotation" "0 0 90"
+			"Dropoffset" "0 -25 -6"
+			"Stackable" "1"
+		}
+		"17" {
+			"Name" "Procoagulant"
+			"Weight" "1"
+			"Type" "utility"
+			"Stackable" "1"
+			"Actions" {
+				"Use" "1"
+				"Craft" "1"
+			}
+			"Stackable" "1"
+		}
+		"18" {
+			"Name" "Backpack"
+			"Weight" "150"
+			"Type" "storage"
+			"Dropmodel" "models/go4tk/pickup/gear_casual_backpack.mdl"
+			"Actions" {
+				"Equip" "1"
+				"Shred" "2"
+			}
+		}
+		"19" {
+			"Name" "Military Backpack"
+			"Weight" "500"
+			"Type" "storage"
+			"Dropmodel" "models/go4tk/pickup/gear_alice_backpack.mdl"
+			"Actions" {
+				"Equip" "1"
+				"Shred" "2"
+			}
+		}
+		"20" {
+			"Name" "AK Ammo"
+			"Weight" "1"
+			"Type" "ammo"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_rif_ak47_mag.mdl"
+			"Droprotation" "0 90 90"
+		}
+		"21" {
+			"Name" "M4 Ammo"
+			"Weight" "1"
+			"Type" "ammo"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_rif_m4a1_mag.mdl"
+			"Droprotation" "0 90 90"
+		}
+		"22" {
+			"Name" "Shotgun Ammo"
+			"Weight" "1"
+			"Type" "ammo"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_shot_nova_mag.mdl"
+		}
+		"23" {
+			"Name" "Scout Ammo"
+			"Weight" "1"
+			"Type" "ammo"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_snip_ssg08_mag.mdl"
+			"Droprotation" "0 90 90"
+		}
+		"24" {
+			"Name" "P2000 Ammo"
+			"Weight" "1"
+			"Type" "ammo"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_pist_hkp2000_mag.mdl"
+			"Droprotation" "0 90 90"
+		}
+			"Stackable" "1"
+		"25" {
+			"Name" "HE Grenade"
+			"Weight" "10"
+			"Type" "weapon"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_eq_fraggrenade_dropped.mdl"
+			"Dropoffset" "0 0 3"
+			"Actions" {
+				"Equip" "1"
+			}
+			"Stackable" "1"
+		}
+		"26" {
+			"Name" "Flashbang"
+			"Weight" "5"
+			"Type" "item"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_eq_flashbang_dropped.mdl"
+			"Dropoffset" "0 0 4"
+			"Actions" {
+				"Equip" "1"
+			}
+			"Stackable" "1"
+		}
+		"27" {
+			"Name" "Smokegrenade"
+			"Weight" "15"
+			"Type" "item"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_eq_smokegrenade_dropped.mdl"
+			"Dropoffset" "0 0 4"
+			"Actions" {
+				"Equip" "1"
+			}
+			"Stackable" "1"
+		}
+		"28" {
+			"Name" "Molotov"
+			"Weight" "35"
+			"Type" "item"
+			"Stackable" "1"
+			"Dropmodel" "models/weapons/w_eq_molotov_dropped.mdl"
+			"Dropoffset" "0 0 7"
+			"Actions" {
+				"Equip" "1"
+			}
+			"Stackable" "1"
+		}
+		"29" {
+			"Name" "Yeezys"
+			"Weight" "115"
+			"Type" "item"
+			"Dropmodel" "models/props_junk/shoe001a.mdl"
+			"Dropoffset" "0 0 5"
+			"Actions" {
+				"Equip" "1"
+			}
+		}
+	}
+	"Shredables" {
+		"9" {
+			"16" "2"
+		}
+		"18" {
+			"15" "3"
+		}
+		"19" {
+			"15" "4"
+			"14" "4"
+		}
+	}
+	"Craftables" {
+		"11" {
+			"3" "1"
+			"16" "2"
+			"14" "4"
+		}
+		"12" {
+			"15" "2"
+		}
+		"17" {
+			"12" "10"
+			"13" "1"
+		}
+	}
+}
